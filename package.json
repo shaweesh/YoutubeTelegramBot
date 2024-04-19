@@ -1,0 +1,14 @@
+{
+  "name": "youtube-mp3-telegram-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot to download YouTube videos as MP3 and auto-delete files after 2 minutes",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.65.1",
+    "ytdl-core": "^4.11.5",
+    "dotenv": "^16.4.5"
+  }
+}
