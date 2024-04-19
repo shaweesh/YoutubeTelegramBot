@@ -24,8 +24,8 @@ The bot uses a `.env` file for configuration. Here are the available configurati
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/shaweesh/telegram-youtube-bot.git`
-2. Navigate to the project directory: `cd telegram-bot`
+1. Clone the repository: `git clone https://github.com/shaweesh/YoutubeTelegramBot.git`
+2. Navigate to the project directory: `cd YoutubeTelegramBot`
 3. Install dependencies: `npm install`
 4. Create a `.env` file with your configuration
 
