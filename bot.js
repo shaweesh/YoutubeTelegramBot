@@ -1,7 +1,11 @@
-require('dotenv').config();
+const express = require('express');
+const app = express();
+
 const TelegramBot = require('node-telegram-bot-api');
 const ytdl = require('ytdl-core');
 const fs = require('fs');
+require('dotenv').config();
+
 
 const filePath = './temp/downloaded_files/';
 
@@ -86,4 +90,14 @@ bot.on('message', async (msg) => {
       bot.sendMessage(chatId, `Error: ${error.message}`);
     }
   }
+});
+
+
+app.get('/', (req, res) => {
+  res.send('Hello World!');
+});
+
+const port = 3000;
+app.listen(port, () => {
+  console.log(`Server running at http://localhost:${port}`);
 });
